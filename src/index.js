@@ -1,11 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
-import './pages/main.css';
 import Principal from './pages/Principal';
 import reportWebVitals from './reportWebVitals';
-
+// CSS
+import './index.css';
+import './pages/main.css';
+import './components/Navbar/Navbar.css'
+//BOOTSTRAP
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 

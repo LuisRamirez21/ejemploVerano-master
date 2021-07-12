@@ -1,14 +1,9 @@
-
-
-
-//import Principal from './Principal';
-//import FormDatos from './components/FormDatos';
-import Home from "./pages/Home";
+import Navbar from "./components/Navbar/Navbar";
 
 function App() {
   return (
     <div className="container">
-     <Home/>
+     <Navbar/>
     </div>
   );
 }
