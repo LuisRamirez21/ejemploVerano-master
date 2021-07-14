@@ -1,104 +1,33 @@
-html, body {
-	margin: 0;
-	padding: 0;
-	font-family: "Roboto", Arial;
-}
-.navbar {
+header {
+	background: rgba(0,0,0,0.9);
 	width: 100%;
-	padding: 5px;
-	background-color: #1a1a27;
-	box-sizing: border-box;
-}
-
-.navbar .contenido {
-	max-width: 1024px;
-	display:flex;
-	justify-content: space-between;
-	margin: 0 auto;
-}
-.bars ul {
-	display: flex;
-	align-items: center;
-	list-style: none;
-	width: 400px;
-	justify-content: space-between;
-	padding: 0;
-	padding-left: 4px;
-}
-.bars ul li a {
-	text-decoration: none;
-	color:#a2a3b7;
-	transition: 1s;
-	text-transform: uppercase;
-}
-.bars ul li a:hover {
-	text-decoration: none;
-	color:white;
-}
-div.title {
-	display: flex;
-	align-items: center;
-	padding-right: 4px;
-}
-div.title a {
-	text-decoration: none;
-	color: white;
-}
-div.title h2{
-	padding: 0;
-	margin: 0;
-}
-.bars-button {
-	width: 40px;
-	height: 40px;
-	border-radius: 50%;
-	background-color: rgba(0, 0, 0, .8);
-	display: none;
 	position: fixed;
-	z-index: 99;
-	left: 7px;
-	top: 11px;
-	color: #a2a3b7;
-	cursor: pointer;
-}
-@media screen and (max-width: 768px) {
-	.navbar .contenido {
-		justify-content: flex-end;
-	}
-	.bars-button {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-	}
-	.bars {
-		position: fixed;
-		background: rgba(0, 0, 0, .5);
-		z-index: 98;
-		top: 0;
-		left: -100vw;
-		width: 100vw;
-		bottom: 0;
-		display: flex;
-		justify-content: center;
-		transition: .3s;
-	}  
-	.bars.is-active {
-		left: 0;
-	}
-	.bars ul {
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-	}
-	.bars ul li {
-		padding: 5px;
-	}
-	.bars ul li a {
-		color: #000;
-		font-weight: 700;
-		text-decoration: underline;
-	}
-	div.title h2 {
-		padding: 10.5px;
-	}
-}
+	z-index: 100;
+  }
+
+nav {
+	float: left; /* Desplazamos el nav hacia la izquierda */
+  }
+  
+  nav ul {
+	list-style: none;
+	overflow: hidden; /* Limpiamos errores de float */
+  }
+  
+  nav ul li {
+	float: left;
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+  }
+  
+  nav ul li a {
+	display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
+	padding: 20px;
+	color: #fff;
+	text-decoration: none;
+  }
+  
+  nav ul li:hover {
+	background: #3ead47;
+  }
+  

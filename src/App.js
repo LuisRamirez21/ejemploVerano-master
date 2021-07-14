@@ -1,11 +1,11 @@
-import Navbar from "./components/Navbar/Navbar";
+import Arutas from "../src/Rutas/Arutas";
+
 
 function App() {
   return (
-    <div className="container">
-     <Navbar/>
+    <div className="App">
+      <Arutas/>
     </div>
   );
 }
-
 export default App;

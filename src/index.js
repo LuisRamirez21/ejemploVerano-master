@@ -1,20 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
-import Principal from './pages/Principal';
-import reportWebVitals from './reportWebVitals';
-// CSS
 import './index.css';
-import './pages/main.css';
-import './components/Navbar/Navbar.css'
-//BOOTSTRAP
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import App from './App';
+import reportWebVitals from './reportWebVitals'; 
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App/>
-    <Principal/>
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
