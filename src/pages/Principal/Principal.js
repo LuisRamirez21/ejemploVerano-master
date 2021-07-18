@@ -6,7 +6,6 @@ function Principal() {
             <link href="https://fonts.googleapis.com/css?family=Manjari&display=swap" rel="stylesheet"/>
             <link rel="stylesheet" href="main.css"></link> 
                 <div class="container">
-                
                 <main class="content">
                     <article class="article">
                         <h1>Title</h1>
@@ -41,18 +40,16 @@ function Principal() {
                     </article>
                 </main>
 
-                <aside class="sidebar">
+                <aside class="sidebar-principal">
                     <article>
-                        <img src="http://lorempixel.com/300/200/sports/" alt="" />
+                        
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad, officiis?</p>
                     </article>
                     <article>
-                        <img src="http://lorempixel.com/300/200/city/" alt="" />
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad, officiis?</p>
+                        
                     </article>
                     <article>
-                        <img src="http://lorempixel.com/300/200/people/" alt="" />
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad, officiis?</p>
+                        
                     </article>
                 </aside>
 

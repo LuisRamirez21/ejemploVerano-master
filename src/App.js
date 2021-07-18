@@ -1,6 +1,5 @@
 import Arutas from "../src/Rutas/Arutas";
 
-
 function App() {
   return (
     <div className="App">
