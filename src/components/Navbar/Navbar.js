@@ -8,10 +8,9 @@ function Navbar() {
          <header>
             <nav>
                 <ul>
-                    <li><Link to="/Principal">Principal</Link></li>
+                    <li><Link to="/">Principal</Link></li>
                     <li><Link to="/Configuracion">Configuracion</Link></li>
-                    <li><a href="#">Cursos</a></li>
-                    <li><a href="#">Preguntame algo</a></li>
+                    <li><Link to="*">Preguntame algo</Link></li>
                     <li><Link to="/RegistroInicio">Registrarse</Link></li>
                 </ul>
             </nav>

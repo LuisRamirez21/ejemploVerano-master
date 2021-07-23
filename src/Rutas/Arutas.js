@@ -2,20 +2,21 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import React from "react";
 import Navbar from "../components/Navbar/Navbar";
 import RegistroInicio from '../pages/RegistroInicio/RegistroInicio';
-import Principal from '../pages/Principal/Principal';
 import Configuracion from '../pages/Configuracion/Configuracion';
+import NotFound from "../pages/NotFound";
+import prueba from "../pages/prueba"
 
 function Arutas() {
   return (
     <div>
       <Router>
-        <Navbar />
+        <Navbar/>
         <Switch>
-          <Route path="/Principal" exact component={Principal} />
+          <Route path="/" exact component={prueba} />
           <Route path="/Configuracion" exact component={Configuracion} />
           <Route path="/RegistroInicio" exact component={RegistroInicio} />
+          <Route path="*" exact component={NotFound} />
         </Switch>
-        
       </Router>
     </div>
   );

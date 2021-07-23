@@ -1,6 +1,6 @@
 import React from 'react';
 import './Configuracion.css';
-
+import {Link} from "react-router-dom";
 function Configuracion() {
     return (
         <div>
@@ -10,13 +10,12 @@ function Configuracion() {
             </div>
             
             <div class="cuerporec-conf">
-            <ul>
-                <li><a href="#">Portada</a></li>
-                <li><a href="#">Grandes rutas</a></li>
-                <li><a href="#">Nuevas rutas</a></li>
-                <li><a href="#">Ciudades</a></li>
-                <li><a href="#">Pueblos</a></li>
-            </ul>
+                <ul className="lista">
+                    <li><Link to="">Principal</Link></li>
+                    <li><Link to="">Preferencias</Link></li>
+                    <li><Link to="">Cerrar Sesion</Link></li>
+                </ul>
+                
             </div>
 </div>
         </div>

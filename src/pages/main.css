@@ -1,8 +1,13 @@
+* {
+	padding: 0;
+	margin: 0;
+  }
+  
 /* HEADER */
 
 .title h1 {
     padding: 20px 0;
-    text-align: center;
+    text-align: right;
     font-size: 2.9em;
     text-transform: uppercase;
 }
@@ -54,7 +59,7 @@
     background: #485460;
     color: #ffffff;
     display: flex;
-    align-items: center;
+    /*align-items: center;*/
     justify-content: center;
 }
 
